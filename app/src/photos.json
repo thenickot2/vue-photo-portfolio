@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Photoshoot 1",
+    "slug": "photoshoot-1",
+    "model": {
+      "name": "Model Name",
+      "link": "http://example.com/"
+    },
+    "mua": {
+      "name": "MUA Name",
+      "link": "http://example.com/"
+    },
+    "images": [
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/"
+    ],
+    "next": "photoshoot-2"
+  },
+  {
+    "name": "Photoshoot 2",
+    "slug": "photoshoot-2",
+    "model": {
+      "name": "Model Name",
+      "link": "http://example.com/"
+    },
+    "mua": {
+      "name": "MUA Name",
+      "link": "http://example.com/"
+    },
+    "blog": "http://example.com/",
+    "images": [
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/"
+    ],
+    "next": "photoshoot-3"
+  },
+  {
+    "name": "Photoshoot 3",
+    "slug": "photoshoot-3",
+    "model": {
+      "name": "Model Name",
+      "link": "http://example.com/"
+    },
+    "mua": {
+      "name": "MUA Name",
+      "link": "http://example.com/"
+    },
+    "blog": "http://example.com/",
+    "images": [
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/"
+    ],
+    "next": "photoshoot-4"
+  },
+  {
+    "name": "Photoshoot 4",
+    "slug": "photoshoot-4",
+    "model": {
+      "name": "Model Name",
+      "link": "http://example.com/"
+    },
+    "mua": {
+      "name": "MUA Name",
+      "link": "http://example.com/"
+    },
+    "images": [
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/",
+      "http://lorempixel.com/640/480/cats/"
+    ],
+    "next": "photoshoot-1"
+  }
+]

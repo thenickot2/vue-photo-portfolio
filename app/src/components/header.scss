@@ -1,0 +1,57 @@
+.navbar-default {
+  background-color: white;
+  border: none;
+
+  .navbar-toggle {
+    margin: 0px;
+  }
+  
+  h1 {
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #333;
+  }
+
+  .dropdown a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  @media (max-width: 768px) {
+    .dropdown a {
+      padding: 10px;
+    }
+  }
+  .dropdown a,
+  .dropdown a:focus,
+  .dropdown a:hover,
+  .navbar-nav > li > a {
+    display: block;
+    color: #212121;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown-menu {
+    box-shadow: none;
+  }
+  .dropdown-menu a {
+    color: #212121;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 0.933333em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.428571em 1.14286em;
+    margin-top: 0.428571em;
+    margin-bottom: 0.428571em;
+    line-height: 1.71429em;
+    box-shadow: none;
+  }
+  
+  .tabWrap {
+    display: block;
+    padding-top: 1.6em;
+  }
+}

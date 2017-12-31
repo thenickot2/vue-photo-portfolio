@@ -1,0 +1,14 @@
+.vagrant
+logs
+target
+.idea
+.idea_modules
+.classpath
+.project
+.settings
+.sbtserver
+npm-debug.log
+app/RUNNING_PID
+app/project/.sbtserver.lock
+app/conf/prod.conf
+app/conf/dev-secret.conf

@@ -1,0 +1,49 @@
+.grid {
+  .next {
+    float: right;
+    margin: 10px 0px;
+    font-weight: 500;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    font-size: 0.8em;
+  }
+
+  h3 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .credits h6 {
+    float: left;
+  }
+
+  span.blog h6 {
+    display: inline-block;
+  }
+
+  .photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    
+    column-count:         3;
+    column-gap:           0px;
+    
+    img {
+      /* Just in case there are inline attributes */
+      width: 100% !important;
+      height: auto !important;
+    }
+    
+    .fa-spinner {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .photos {
+      column-count:         2;
+    }
+  }
+}
